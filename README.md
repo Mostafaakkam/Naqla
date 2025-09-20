@@ -13,8 +13,8 @@ Key Features:
 ## Applications
 
 - API Server (Nest.js) by [@bahaa-alden](https://github.com/bahaa-alden) and [@MahamdSirafi](https://github.com/MahamdSirafi)
-- User App (Flutter) by [@Majed-alaswad9](https://github.com/Majed-alaswad9)
-- Driver App (Flutter) by [@Majed-alaswad9](https://github.com/Majed-alaswad9)
+- User App (Flutter) by [@Mostafaakkam](https://https://github.com/Mostafaakkam)
+- Driver App (Flutter) by [@Mostafaakkam](https://https://github.com/Mostafaakkam)
 - Admin Dashboard (Next.js) by [@I-3B](https://github.com/I-3B)
 
 ## Enviroment Variables
