@@ -1,0 +1,16 @@
+{
+  "name": "الاسم",
+  "phone": "رقم الهاتف",
+  "wallet": "الرصيد",
+  "createdAt": "مسجل منذ",
+  "countOrderDelivered": "عدد الطلبات المكتملة",
+  "deposit": "إيداع رصيد",
+  "walletPending": "معلق",
+  "walletAvailable": "متاح",
+  "walletTotal": "إجمالي",
+  "depositAvailable": "إيداع",
+  "depositSuccess": "تم إيداع {{amount}} بنجاح",
+  "removeSuccess": "تم حذف الزبون بنجاح",
+  "options": "الخيارات",
+  "remove": "حذف"
+}

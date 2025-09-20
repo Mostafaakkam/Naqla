@@ -1,0 +1,42 @@
+version: '3.3'
+
+services:
+  dev-db:
+    image: postgres:13
+    ports:
+      - 5435:5432
+    env_file:
+      - .env
+    environment:
+      POSTGRES_USER: '${POSTGRES_USER}'
+      POSTGRES_PASSWORD: '${POSTGRES_PASS}'
+      POSTGRES_DB: '${POSTGRES_NAME}'
+    networks:
+      - freecodecamp
+
+  test-db:
+    image: postgres:13
+    ports:
+      - 5435:5432
+    environment:
+      POSTGRES_USER: '${POSTGRES_USER}'
+      POSTGRES_PASSWORD: '${POSTGRES_PASS}'
+      POSTGRES_DB: '${POSTGRES_NAME}'
+    networks:
+      - freecodecamp
+
+  app:
+    build: .
+    ports:
+      - '3000:3000'
+    depends_on:
+      - dev-db
+    environment:
+      POSTGRES_USER: '${POSTGRES_USER}'
+      POSTGRES_PASS: '${POSTGRES_PASS}'
+      POSTGRES_NAME: '${POSTGRES_NAME}'
+    networks:
+      - freecodecamp
+
+networks:
+  freecodecamp:

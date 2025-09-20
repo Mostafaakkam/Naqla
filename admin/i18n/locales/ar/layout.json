@@ -1,0 +1,25 @@
+{
+  "navigation": {
+    "home": "الرئيسية",
+    "car-advantages": "ميزات السيارات",
+    "orders": "الطلبات",
+    "customers": "الزبائن",
+    "drivers": "السائقين",
+    "admins": "المشرفين",
+    "settings": "الإعدادات",
+
+    "preferences": "التفضيلات"
+  },
+  "logout": "تسجيل الخروج",
+  "theme": {
+    "theme": "الوضع",
+    "light": "الوضع الفاتح",
+    "dark": "الوضع الداكن",
+    "system": "حسب النظام"
+  },
+  "languages": {
+    "language": "اللغة",
+    "ar": "العربية",
+    "en": "الإنجليزية"
+  }
+}

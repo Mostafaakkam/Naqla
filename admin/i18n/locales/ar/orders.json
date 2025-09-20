@@ -1,0 +1,30 @@
+{
+  "title": "الطلبات",
+  "user": "الزبون",
+  "regionStart": "منطقة الإنطلاق",
+  "regionEnd": "منطقة الوصول",
+  "desiredDate": "موعد الطلب",
+  "photos": "الملفات المرفقة",
+  "review": "مراجعة الطلب",
+  "splitOrder": "تقسيم الطلب",
+  "subOrderCreate": {
+    "canNotDoActions": "لا يمكن التعديل على هذا الطلب",
+    "reject": "رفض الطلب",
+    "rejectConfirm": "هل أنت متأكد من رفض الطلب؟",
+    "rejectCancel": "تراجع",
+    "rejectedOrderSuccessfully": "تم رفض الطلب بنجاح",
+    "customer": "الزبون",
+    "requestedAdvantages": "الميزات المطلوبة",
+    "photos": "الملفات المرفقة",
+    "allFilesSelected": "تم تحديد جميع الصور :)",
+    "weight": "الوزن",
+    "length": "الطول",
+    "width": "العرض",
+    "subOrder": "التوصيلة",
+    "submit": "تقسيم الطلب",
+    "addSubOrder": "إضافة توصيلة",
+    "estimatedWeight": "الوزن التقديري",
+    "notAllFilesSelected": "لم يتم تحديد كل الملفات!",
+    "atLeastOneFile": "يجب ان تحتوي التوصيلة ملف واحد على الأقل"
+  }
+}

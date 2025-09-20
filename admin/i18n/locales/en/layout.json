@@ -1,0 +1,25 @@
+{
+  "navigation": {
+    "home": "Home",
+    "car-advantages": "Car Advantages",
+    "orders": "Orders",
+    "customers": "Customers",
+    "drivers": "Drivers",
+    "admins": "Admins",
+    "settings": "Settings",
+
+    "preferences": "Preferences"
+  },
+  "logout": "Logout",
+  "theme": {
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "languages": {
+    "language": "Language",
+    "ar": "Arabic",
+    "en": "English"
+  }
+}
